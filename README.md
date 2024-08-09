@@ -21,7 +21,7 @@ The dataset contains medical records of 303 patients who had heart failure, coll
 | RestECG	     |   int  | Resting electrocardiogram results [0=Normal, 1=having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV), 2=showing probable or definite left ventricular hypertrophy by Estes' criteria]
 | Thalach	     |   int  | Maximum heart rate achieved [between 60 and 202]
 | Exang          |   int  | Exercise-induced angina [1=Yes, 0=No]
-| Oldpeak	     |   int  | ST depression induced by exercise relative to rest
+| Oldpeak	     |  float | ST depression induced by exercise relative to rest
 | Slope	         |   int  | The slope of the peak exercise ST segment [1=upSloping, 2=flat, 3=downSloping]
 | Ca        	 |   int  | Number of major vessels (0–3) colored by fluoroscopy
 | Thal           |   int  | 3 = normal; 6 = fixed defect; 7 = reversible defect
