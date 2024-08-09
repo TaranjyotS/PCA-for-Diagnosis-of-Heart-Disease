@@ -62,4 +62,4 @@ Fine-tune hyperparameters of the models to improve performance (e.g., GridSearch
 Make predictions on new/unseen data using the trained model. Interpret the results and assess the factors contributing to heart disease prediction.
 
 ## Doc
-Contains the report for in-depth understanding of the project.
+Contains the [report](./doc/project_report.pdf) for in-depth understanding of the project.
