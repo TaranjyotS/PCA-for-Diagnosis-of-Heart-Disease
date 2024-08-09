@@ -7,7 +7,7 @@ In this project, Principal Component Analysis (PCA) is applied to study the perf
 - In the second section, we have used logistic regression for classifying the observations.
 
 ## Dataset
-The dataset contains medical records of 303 patients who had heart failure, collected during their follow-up period, where each patient profile has 14 clinical features. [Dataset](./data/Cleveland_data.csv) is under data secion of the repository.
+The dataset contains medical records of 303 patients who had heart failure, collected during their follow-up period, where each patient profile has 14 clinical features. [Dataset](./data/Cleveland_data.csv) is under data section of the repository.
 
 ### Attributes Information:
 |   Attribute    |  Type  |	       Description        |
@@ -16,13 +16,13 @@ The dataset contains medical records of 303 patients who had heart failure, coll
 | Sex	         |   int  | Gender of the patient [1=Male, 0=Female]
 | ChestPain (Cp) |   int  | Chest pain type [1=Typical Angina, 2=Atypical Angina, 3=Non-Anginal Pain, 4=Asymptomatic]
 | TrestBPS	     |   int  | Resting blood pressure [in mm Hg] (Normal blood pressure - 120/80 Hg)
-| Chol      	 |   int  | Serum cholestrol level in blood [in mg/dl] (Normal cholesterol level below for adults 200mg/dL)
+| Chol      	 |   int  | Serum cholesterol level in blood [in mg/dl] (Normal cholesterol level below for adults 200mg/dL)
 | FBS   	     |   int  | Fasting Blood Sugar [1=true, 0=false] (Normal less than 100mg/dL for non diabetes for diabetes 100-125mg/dL)
 | RestECG	     |   int  | Resting electrocardiogram results [0=Normal, 1=having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV), 2=showing probable or definite left ventricular hypertrophy by Estes' criteria]
 | Thalach	     |   int  | Maximum heart rate achieved [between 60 and 202]
 | Exang          |   int  | Exercise-induced angina [1=Yes, 0=No]
 | Oldpeak	     |   int  | ST depression induced by exercise relative to rest
-| Slope	         |   int  | The slope of the peak exercise ST segment [1=upsloping, 2=flat, 3=downsloping]
+| Slope	         |   int  | The slope of the peak exercise ST segment [1=upSloping, 2=flat, 3=downSloping]
 | Ca        	 |   int  | Number of major vessels (0–3) colored by fluoroscopy
 | Thal           |   int  | 3 = normal; 6 = fixed defect; 7 = reversible defect
 
@@ -55,7 +55,7 @@ Evaluate the model's performance using the testing data (accuracy, precision, re
 
 ***7. Tuning and Optimization***
 
-Fine-tune hyperparameters of the models to improve performance (e.g., GridSearchCV or RandomizedSearchCV).
+Fine-tune hyperparameter of the models to improve performance (e.g., GridSearchCV or RandomizedSearchCV).
 
 ***8. Prediction and Interpretation***
 
