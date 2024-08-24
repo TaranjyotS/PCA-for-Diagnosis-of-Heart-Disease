@@ -1,4 +1,4 @@
-# PCA-for-Diagnosis-of-Heart-Disease
+# Machine Learning-Based Diagnostic Systems for Heart Disease
 
 ## Overview
 
