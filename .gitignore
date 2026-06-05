@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Build/package
+build/
+dist/
+*.egg-info/
+
+# Models / generated artifacts
+models/*.joblib
+models/*.pkl
+models/*.pickle
+models/*.onnx
+models/metrics.json
+
+# Keep folder structure
+!models/.gitkeep
+
+# Data
+data/processed/
+*.sqlite
+*.db
+
+# Logs
+logs/
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
